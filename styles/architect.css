@@ -21,7 +21,7 @@
  .tex-light-gray {
      color: #727272;
      font-size: 16px;
-     padding-bottom: 50px;
+     /* padding-bottom: 50px; */
 
  }
 
@@ -153,19 +153,26 @@
  /* Feature section */
  .features-container {
      display: flex;
-     padding: 130px 0;
+     margin-top: 130px;
+     gap: 100px;
      
 
+ }
+ .features-container .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
  }
 
  .features-content {
      width: 50%;
  }
 
- .features-details {
+ .features-card{
      border-radius: 8px;
      background: #FFF;
      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+     padding: 10px;
+     margin-bottom: 20px;
     
  }
 
